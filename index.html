@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="static/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="extraLargeText title">Pomodoro Timer</h1>
+
+    <div class="box">
+        <div class="boxContainer">
+            <div class="mediumText boxContent" id="sessionParagraph"></div>
+            <div class="ultraLargeText boxContent" id="countdown">25:00</div>
+        </div>
+    </div>
+
+    <div id="timeControls">
+        <span class="box">
+            <div class="boxContainer">
+                <span class="smallText boxContent">Session Time</span>
+                <br>
+                <span class="smallText boxContent button" id="sessionLess">-</span>
+                <span class="smallText boxContent" id="sessionTime">25</span>
+                <span class="smallText boxContent button" id="sessionMore">+</span>
+            </div>
+        </span>
+        <span class="box">
+            <div class="boxContainer">
+                <span class="smallText boxContent">Break Time</span>
+                <br>
+                <span class="smallText boxContent button" id="breakLess">-</span>
+                <span class="smallText boxContent" id="breakTime">5</span>
+                <span class="smallText boxContent button" id="breakMore">+</span>
+            </div>
+        </span>
+    </div>
+
+    <br>
+
+    <div class="box">
+        <div class="boxContainer">
+            <button class="button controls" id="startPause">⏯</button>
+            <button class="button controls" id="reset">🔄</button>
+        </div>
+    </div>
+
+    <script src="./static/index.js"></script>
+</body>
+</html>

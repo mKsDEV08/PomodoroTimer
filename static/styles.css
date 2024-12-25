@@ -1,0 +1,56 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #011e37;
+    color: #c3e2fd;
+    text-align: center;
+}
+
+.title {
+    margin: 100px;
+}
+
+.boxContent {
+    margin: 10px 10px;
+}
+
+.boxContainer {
+    margin: 20px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: transparent;
+    color: #c3e2fd;
+    border: none;
+}
+
+.controls {
+    font-size: xx-large;
+}
+
+.box {
+    display: inline-block;
+    border: 5px solid #c3e2fd;
+    border-radius: 16px;
+    margin: 10px 10px;
+}
+
+.smallText {
+    font-size: 16pt;
+}
+
+.mediumText {
+    font-size: 24pt;
+}
+
+.largeText {
+    font-size: 32pt;
+}
+
+.extraLargeText {
+    font-size: 48pt;
+}
+
+.ultraLargeText {
+    font-size: 82pt;
+}
