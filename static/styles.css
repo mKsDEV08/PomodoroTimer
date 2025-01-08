@@ -95,3 +95,9 @@ body {
     font-size: 14px;
     color: #666666; /* Texto secundário em cinza */
 }
+
+#info {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
